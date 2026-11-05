@@ -1,8 +1,8 @@
 # translit
 
-Переводит кириллицу латиницей — команда в терминале и библиотека для Node.js. По умолчанию у меня ISO 9: одна латинская буква на каждую русскую, поэтому слово однозначно читается обратно.
+Переводит кириллицу латиницей — команда в терминале и библиотека для Node.js. По умолчанию у меня немецкая транскрипция: так русские имена пишут в Германии — ж и ш дают sch, ч — tsch, х — ch.
 
-Проект из шаблона курса GitHub 2026 JavaRush: код в `src/` — от курса, мои правки — алфавит в `translit.config.json` и этот README.
+Проект из шаблона курса GitHub 2026 JavaRush: код в `src/` — от курса, мои правки — алфавит `alphabets/german.json`, выбор в `translit.config.json` и этот README.
 
 ## Как запустить
 
@@ -17,12 +17,12 @@ npm test
 
 ## Мой алфавит
 
-В `translit.config.json` выбран `iso9`:
+Свой алфавит — `alphabets/german.json`, копия паспортного с немецкими буквами; в `translit.config.json` выбран он:
 
 ```json
 {
-  "alphabet": "iso9"
+  "alphabet": "german"
 }
 ```
 
-«Привет, жёлтый щенок» → `Privet, žëltyj ŝenok`. Паспортным алфавитом вышло бы `Privet, zheltyi shchenok`.
+«Привет, жёлтый щенок» → `Privet, scheltyi schtschenok`. Паспортным алфавитом вышло бы `Privet, zheltyi shchenok`, ISO 9 — `Privet, žëltyj ŝenok`.

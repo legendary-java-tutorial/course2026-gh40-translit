@@ -27,12 +27,16 @@
     "ц": "ts",
     "ч": "tsch",
     "ш": "sch",
-    "щ": "shtsch",
+    "щ": "schtsch",
     "ъ": "ie",
     "ы": "y",
     "ь": "",
     "э": "e",
     "ю": "iu",
     "я": "ia"
+  },
+  "examples": {
+    "Привет, жёлтый щенок": "Privet, scheltyi schtschenok",
+    "Чехов, Шишкин, Хрущёв": "Tschechov, Schischkin, Chruschtschev"
   }
 }

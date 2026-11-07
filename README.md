@@ -15,6 +15,22 @@ npm start -- --list
 npm test
 ```
 
+## Как подключить
+
+В свой проект — архивом из релиза, без реестра npm:
+
+```bash
+npm install https://github.com/legendary-java-tutorial/course2026-gh40-translit/releases/download/v0.2.0/translit-0.2.0.tgz
+```
+
+```js
+import { translit } from "translit";
+
+console.log(translit("Привет, жёлтый щенок")); // Privet, scheltyi schtschenok
+```
+
+Что нового в версиях — [CHANGELOG.md](CHANGELOG.md).
+
 ## Мой алфавит
 
 Свой алфавит — `alphabets/german.json`, копия паспортного с немецкими буквами; в `translit.config.json` выбран он:

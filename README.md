@@ -20,7 +20,7 @@ npm test
 В свой проект — архивом из релиза, без реестра npm:
 
 ```bash
-npm install https://github.com/legendary-java-tutorial/course2026-gh40-translit/releases/download/v0.2.0/translit-0.2.0.tgz
+npm install https://github.com/legendary-java-tutorial/course2026-gh40-translit/releases/download/v1.0.0/translit-1.0.0.tgz
 ```
 
 ```js

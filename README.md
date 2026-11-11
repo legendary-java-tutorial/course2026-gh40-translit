@@ -23,6 +23,14 @@ npm test
 npm install https://github.com/legendary-java-tutorial/course2026-gh40-translit/releases/download/v1.0.0/translit-1.0.0.tgz
 ```
 
+Команда — сразу после установки:
+
+```bash
+npx translit "Привет, жёлтый щенок"
+```
+
+В коде — `import` (проекту нужен `"type": "module"` в `package.json`: `npm pkg set type=module`):
+
 ```js
 import { translit } from "translit";
 
